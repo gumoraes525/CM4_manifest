@@ -16,7 +16,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
 
   <project path="cts" name="platform/cts" />
 
@@ -100,7 +100,7 @@
   <project path="external/tesseract" name="platform/external/tesseract" />
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="froyo" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="master" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
@@ -118,7 +118,7 @@
   <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" revision="froyo" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="froyo" />
   <project path="hardware/ril" name="platform/hardware/ril"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
