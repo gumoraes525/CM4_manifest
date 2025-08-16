@@ -3,7 +3,6 @@
 
   <remote name="korg" fetch="https://android-review.linaro.org/" review="review.source.android.com"/>
   <remote name="github" fetch="https://github.com/" />
-  <remote name="gitorious" fetch="git://gitorious.org" />
 
   <default revision="eclair" remote="korg"/>
 
@@ -189,5 +188,6 @@
   <project path="vendor/htc/bravo" name="behnaam/android_vendor_htc_bravo" remote="github" />
   <project path="vendor/qcom/android-open" name="CyanogenMod/android_vendor_qcom_android-open" remote="github" />
   <project path="vendor/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
-  <project path="vendor/sample" name="platform/vendor/sample" revision="master" revision="eclair" />
+  
+  <project path="vendor/sample" name="platform/vendor/sample" revision="eclair" />
 </manifest>
